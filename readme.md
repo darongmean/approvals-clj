@@ -5,14 +5,18 @@ Approvals Testing Library for Clojure/Clojurescript.
 It's an assertion library with a twist. 
 Instead of comparing Clojure data and print the diff on the terminal, it writes data to file and launch your favorite diff tool.
 
-Why would I want to do that? 
+### Why would I want to do that? 
 My expectation after using this testing method:
 - write less assertion codes
 - diff tool would help me to spot issues faster than the terminal 
 For more reasons, see https://approvaltests.com.
 
-ClojureScript: This is a wrapper of https://github.com/approvals/Approvals.NodeJS
-Clojure: TBD
+
+### ClojureScript
+
+This is a wrapper of https://github.com/approvals/Approvals.NodeJS
+
+### Clojure: TBD
 
 # References
 
