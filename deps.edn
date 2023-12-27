@@ -1,0 +1,9 @@
+{:paths
+ ["src" "test"]
+
+ :deps
+ {com.taoensso/truss         {:mvn/version "1.11.0"}
+  lambdaisland/data-printers {;; Quickly define print handlers for tagged literals across print/pprint implementations
+                              :mvn/version "0.7.47"}
+  zprint/zprint              {:mvn/version "1.2.8"}
+  thheller/shadow-cljs       {:mvn/version "2.26.2"}}}

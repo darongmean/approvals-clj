@@ -1,0 +1,9 @@
+;; shadow-cljs configuration
+{:deps true
+
+ :builds
+ {:env/test {:target           :node-test
+             :output-to        "target/test/index.js"
+             :ns-regexp        "-test$"
+             :autorun          true
+             :compiler-options {:output-feature-set :es-next}}}}

@@ -1,0 +1,4 @@
+;; approvals-clj configuration
+{:output-dir "test-resources"
+ :reporters  [{:cmd "idea" :args ["diff"]}
+              "gitdiff"]}
