@@ -32,3 +32,8 @@ pom.xml.asc
 .env-*
 .lsp
 .vscode
+
+.env
+.env-*
+
+*pom.asc

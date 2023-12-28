@@ -1,5 +1,5 @@
 ;; shadow-cljs configuration
-{:deps true
+{:deps {:aliases [:test]}
 
  :builds
  {:env/test {:target           :node-test

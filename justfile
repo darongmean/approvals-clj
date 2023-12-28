@@ -13,6 +13,12 @@ deps:
 shadow-cljs cmd args="":
     npx shadow-cljs {{cmd}} {{args}}
 
-
 test:
-    j shadow-cljs compile :env/test
+    just shadow-cljs compile :env/test
+
+# set env CLOJARS_USERNAME and CLOJARS_PASSWORD by .env
+deploy-clojars:
+    clj -T:build clean
+    clj -T:build jar
+    clj -T:build gen-pom
+    clj -X:deploy

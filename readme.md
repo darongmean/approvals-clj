@@ -25,6 +25,12 @@ This is a wrapper of https://github.com/approvals/Approvals.NodeJS
 - https://github.com/DomainDrivenArchitecture/data-test
 - https://www.texttest.org/
 
+# TODO
+
+- https://clojuredocs.org/clojure.inspector/inspect-tree
+- https://clojuredocs.org/clojure.inspector/inspect-table
+- https://clojuredocs.org/clojure.inspector/inspect-tree
+
 # License
 
 Copyright © 2023 Darong Mean
